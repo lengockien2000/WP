@@ -99,8 +99,8 @@ const LoginForm = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 40px auto;
-  padding: 60px;
+  margin: 20px auto;
+  padding: 20px;
 `;
 
 const Suggest = styled.p`

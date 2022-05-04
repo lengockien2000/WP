@@ -2,14 +2,14 @@
 /* eslint-disable no-nested-ternary */
 import * as React from 'react';
 import styled from 'styled-components';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { logout } from 'store/authSlice';
 import { Device } from 'constants/mediaQuery';
 
 function Header() {
   const { isLoggedIn } = useSelector((state) => state.auth);
-  const { pathname } = useLocation();
+  // const { pathname } = useLocation();
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -19,20 +19,20 @@ function Header() {
   };
 
   const renderNavigationBar = () =>
-    isLoggedIn ? (
+    isLoggedIn && (
       <Button onClick={logoutHandler}>
         <i className="fa-solid fa-arrow-right-from-bracket" />
         <ToolTip>Logout</ToolTip>
       </Button>
-    ) : pathname === '/login' ? (
-      <NavigateButton to="/register">
-        Haven't got any account? <i className="fa-solid fa-user-plus" />
-      </NavigateButton>
-    ) : (
-      <NavigateButton to="/login">
-        Already have an account?{' '}
-        <i className="fa-solid fa-arrow-right-to-bracket" />
-      </NavigateButton>
+    // ) : pathname === '/login' ? (
+    //   <NavigateButton to="/register">
+    //     Haven't got any account? <i className="fa-solid fa-user-plus" />
+    //   </NavigateButton>
+    // ) : (
+    //   <NavigateButton to="/login">
+    //     Already have an account?{' '}
+    //     <i className="fa-solid fa-arrow-right-to-bracket" />
+    //   </NavigateButton>
     );
 
   return (
@@ -57,7 +57,6 @@ const Wrapper = styled.div`
   justify-content: space-between;
   border-bottom: 1px solid rgb(217, 218, 220);
   padding: 25px 0px 10px;
-  margin-bottom: 30px;
 `;
 
 const Actions = styled.div`
@@ -129,26 +128,26 @@ const ToolTip = styled.span`
   }
 `;
 
-const NavigateButton = styled(Link)`
-  height: fit-content;
-  padding: 1px 6px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 4px;
-  font-size: var(--font-size);
+// const NavigateButton = styled(Link)`
+//   height: fit-content;
+//   padding: 1px 6px;
+//   display: flex;
+//   justify-content: flex-start;
+//   align-items: center;
+//   gap: 4px;
+//   font-size: var(--font-size);
 
-  & i {
-    font-size: var(--button-size);
-  }
+//   & i {
+//     font-size: var(--button-size);
+//   }
 
-  @media ${Device.MOBILE} {
-    font-size: 10px;
+//   @media ${Device.MOBILE} {
+//     font-size: 10px;
 
-    & i {
-      font-size: 16px;
-    }
-  }
-`;
+//     & i {
+//       font-size: 16px;
+//     }
+//   }
+// `;
 
 export default Header;
