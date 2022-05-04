@@ -1,0 +1,60 @@
+{
+  "productList": [
+    {
+      "id": "4aff282b-46b0-469b-b91a-52f0b2fccabb",
+      "price": 5200000,
+      "title": "Shoes Ultraboost 22",
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/ULTRABOOST_22_DJen_GZ0127_01_standard.jpg",
+      "createdTimestamp": 1647869066420
+    },
+    {
+      "id": "2016bef9-5f43-4eff-ac25-5e75ca482def",
+      "price": 2850000,
+      "title": "Shoes Supernova M",
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/391bf5348c3045608e62ad6e00e3c6e8_9366/SUPERNOVA_M_DJen_H04467_01_standard.jpg",
+      "createdTimestamp": 1647869066421
+    },
+    {
+      "id": "43501113-e819-4cf6-889e-cf549f4facd4",
+      "price": 1000000,
+      "title": "Shoes Superstar 82",
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c3a61df8aea41d48b16ad6500b34711_9366/Giay_Superstar_82_DJen_GX3746_01_standard.jpg",
+      "createdTimestamp": 1647869066422
+    },
+    {
+      "id": "4aff282b-46b0-469b-b91a-52f0b2fccabb",
+      "price": 3000000,
+      "title": "Shoes Rod Laver vintage",
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/91bcd01f6dfa4a3690d2ad49006dd686_9366/Giay_Rod_Laver_Vintage_trang_H02901_01_standard.jpg",
+      "createdTimestamp": 1647869066423
+    },
+    {
+      "id": "5547a32f-56fb-43e2-b865-534a36841d44",
+      "price": 750000,
+      "title": "Adissage",
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2034762823bb4c7aab57a9ad016487c9_9366/Dep_Adissage_Mau_xanh_da_troi_F35579_01_standard.jpg",
+      "createdTimestamp": 1648001412846
+    },
+    {
+      "id": "5547a32f-56fb-43e2-b865-534a36841d44",
+      "price": 2400000,
+      "title": "Shoes mule Stan Smith",
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/79e48817303b42129e05ad2c00bc0332_9366/Giay_mule_Stan_Smith_Xam_H05737_01_standard.jpg",
+      "createdTimestamp": 1648001412846
+    },
+    {
+      "id": "94e6c313-0c72-490f-a561-a7a1ebae888d",
+      "price": 900000,
+      "title": "Adilette",
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/09fc547beb6e40baab81a807010b0bcc_9366/Dep_adilette_trang_280648_01_standard.jpg",
+      "createdTimestamp": 1648001412846
+    },
+    {
+      "id": "a68286ae-7bc6-4469-b46b-c82639c0ea01",
+      "price": 800000,
+      "title": "Flip flop comfort",
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/64c4302edce145a186c3aafe0123735c_9366/Dep_xo_ngon_Comfort_DJen_EG2069_01_standard.jpg",
+      "createdTimestamp": 1648001412846
+    }
+  ]
+}
